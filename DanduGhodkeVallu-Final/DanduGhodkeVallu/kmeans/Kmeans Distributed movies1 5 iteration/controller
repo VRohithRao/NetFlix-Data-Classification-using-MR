@@ -1,0 +1,41 @@
+2015-04-22T17:32:04.369Z INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-7B3OFZR7K73Y/Kmeans.jar s3://mapreducebharat/Project/Kmeans/movies1 s3://mapreducebharat/Project/Kmeans/res/ 6 s3n://mapreducebharat/Project/Kmeans/res/'
+2015-04-22T17:32:04.404Z INFO Environment:
+  TERM=linux
+  CONSOLE=/dev/console
+  JAVA_HOME=/usr/lib/jvm/java-7-oracle
+  SHLVL=5
+  HADOOP_IDENT_STRING=hadoop
+  HIVE_HOME=/home/hadoop/hive
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  HADOOP_HOME_WARN_SUPPRESS=true
+  PWD=/
+  INIT_VERSION=sysvinit-2.88
+  _=/usr/lib/jvm/java-7-oracle/bin/java
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_HOME=/home/hadoop
+  LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib:
+  runlevel=2
+  SHELL=/bin/sh
+  VERBOSE=no
+  previous=N
+  CASCADING_SDK_HOME=/home/hadoop/Cascading-2.5-SDK
+  HADOOP_LOGFILE=syslog
+  PATH=/usr/local/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/hadoop/bin:/home/hadoop/hive/bin:/home/hadoop/Cascading-2.5-SDK/tools/multitool-20140224/bin:/home/hadoop/Cascading-2.5-SDK/tools/load-20140223/bin:/home/hadoop/Cascading-2.5-SDK/tools/lingual-client/bin:/home/hadoop/Cascading-2.5-SDK/driven/bin
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-7B3OFZR7K73Y
+  RUNLEVEL=2
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-7B3OFZR7K73Y/tmp
+  PREVLEVEL=N
+  HOME=/home/hadoop
+  LANG=en_US.UTF-8
+2015-04-22T17:32:04.404Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-7B3OFZR7K73Y/stdout
+2015-04-22T17:32:04.404Z INFO redirectError to /mnt/var/log/hadoop/steps/s-7B3OFZR7K73Y/stderr
+2015-04-22T17:32:04.405Z INFO Working dir /mnt/var/lib/hadoop/steps/s-7B3OFZR7K73Y
+2015-04-22T17:32:04.688Z INFO ProcessRunner started child process 2700 :
+hadoop    2700  1519  0 17:32 ?        00:00:00 bash /home/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-7B3OFZR7K73Y/Kmeans.jar s3://mapreducebharat/Project/Kmeans/movies1 s3://mapreducebharat/Project/Kmeans/res/ 6 s3n://mapreducebharat/Project/Kmeans/res/
+2015-04-22T17:32:04.690Z INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-7B3OFZR7...
+2015-04-22T17:47:01.066Z INFO Process still running
+2015-04-22T18:02:03.342Z INFO Process still running
+2015-04-22T18:15:51.593Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-7B3OFZR7...
+2015-04-22T18:15:56.092Z INFO Step created jobs: job_201504221729_0001,job_201504221729_0002,job_201504221729_0003,job_201504221729_0004,job_201504221729_0005
+2015-04-22T18:16:21.850Z INFO Step succeeded with exitCode 0 and took 2657 seconds

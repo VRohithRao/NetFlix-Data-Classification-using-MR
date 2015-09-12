@@ -1,0 +1,41 @@
+2015-04-26T20:04:49.349Z INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-2STT7SHV0967C/KNNSecondarySort.jar s3://netflixfinalproject1/testmovies s3://netflixfinalproject1/movies s3://netflixfinalproject1/KnnSS-1'
+2015-04-26T20:04:49.351Z INFO Environment:
+  TERM=linux
+  CONSOLE=/dev/console
+  JAVA_HOME=/usr/lib/jvm/java-7-oracle
+  SHLVL=5
+  HADOOP_IDENT_STRING=hadoop
+  HIVE_HOME=/home/hadoop/hive
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  HADOOP_HOME_WARN_SUPPRESS=true
+  PWD=/
+  INIT_VERSION=sysvinit-2.88
+  _=/usr/lib/jvm/java-7-oracle/bin/java
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_HOME=/home/hadoop
+  LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib:
+  runlevel=2
+  SHELL=/bin/sh
+  VERBOSE=no
+  previous=N
+  CASCADING_SDK_HOME=/home/hadoop/Cascading-2.5-SDK
+  HADOOP_LOGFILE=syslog
+  PATH=/usr/local/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/hadoop/bin:/home/hadoop/hive/bin:/home/hadoop/Cascading-2.5-SDK/tools/multitool-20140224/bin:/home/hadoop/Cascading-2.5-SDK/tools/load-20140223/bin:/home/hadoop/Cascading-2.5-SDK/tools/lingual-client/bin:/home/hadoop/Cascading-2.5-SDK/driven/bin
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-2STT7SHV0967C
+  RUNLEVEL=2
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-2STT7SHV0967C/tmp
+  PREVLEVEL=N
+  HOME=/home/hadoop
+  LANG=en_US.UTF-8
+2015-04-26T20:04:49.351Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-2STT7SHV0967C/stdout
+2015-04-26T20:04:49.352Z INFO redirectError to /mnt/var/log/hadoop/steps/s-2STT7SHV0967C/stderr
+2015-04-26T20:04:49.352Z INFO Working dir /mnt/var/lib/hadoop/steps/s-2STT7SHV0967C
+2015-04-26T20:04:49.511Z INFO ProcessRunner started child process 2479 :
+hadoop    2479  1486  0 20:04 ?        00:00:00 bash /home/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-2STT7SHV0967C/KNNSecondarySort.jar s3://netflixfinalproject1/testmovies s3://netflixfinalproject1/movies s3://netflixfinalproject1/KnnSS-1
+2015-04-26T20:04:49.514Z INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-2STT7SHV...
+2015-04-26T20:19:45.890Z INFO Process still running
+2015-04-26T20:34:48.129Z INFO Process still running
+2015-04-26T20:49:14.340Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-2STT7SHV...
+2015-04-26T20:49:19.464Z INFO Step created jobs: job_201504262002_0001
+2015-04-26T20:49:24.298Z INFO Step succeeded with exitCode 0 and took 2674 seconds

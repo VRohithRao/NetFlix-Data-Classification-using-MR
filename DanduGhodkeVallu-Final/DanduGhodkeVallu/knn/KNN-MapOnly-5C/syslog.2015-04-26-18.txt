@@ -1,0 +1,23 @@
+2015-04-26 18:53:18,910 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Created AmazonS3 with InstanceProfileCredentialsProvider
+2015-04-26 18:53:23,035 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2015-04-26 18:53:23,036 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2015-04-26 18:53:23,036 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 0
+2015-04-26 18:53:25,892 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2015-04-26 18:53:25,892 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2015-04-26 18:53:25,962 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2015-04-26 18:53:25,986 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2015-04-26 18:53:25,989 WARN com.hadoop.compression.lzo.LzoCodec (main): Could not find build properties file with revision hash
+2015-04-26 18:53:25,989 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev UNKNOWN]
+2015-04-26 18:53:25,999 WARN org.apache.hadoop.io.compress.snappy.LoadSnappy (main): Snappy native library is available
+2015-04-26 18:53:25,999 INFO org.apache.hadoop.io.compress.snappy.LoadSnappy (main): Snappy native library loaded
+2015-04-26 18:53:27,212 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201504261850_0001
+2015-04-26 18:53:28,293 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2015-04-26 18:55:00,655 INFO org.apache.hadoop.mapred.JobClient (main):  map 1% reduce 0%
+2015-04-26 18:55:36,773 INFO org.apache.hadoop.mapred.JobClient (main):  map 2% reduce 0%
+2015-04-26 18:56:09,852 INFO org.apache.hadoop.mapred.JobClient (main):  map 3% reduce 0%
+2015-04-26 18:56:43,017 INFO org.apache.hadoop.mapred.JobClient (main):  map 4% reduce 0%
+2015-04-26 18:57:26,112 INFO org.apache.hadoop.mapred.JobClient (main):  map 5% reduce 0%
+2015-04-26 18:58:02,215 INFO org.apache.hadoop.mapred.JobClient (main):  map 6% reduce 0%
+2015-04-26 18:58:35,297 INFO org.apache.hadoop.mapred.JobClient (main):  map 7% reduce 0%
+2015-04-26 18:59:08,374 INFO org.apache.hadoop.mapred.JobClient (main):  map 8% reduce 0%
+2015-04-26 18:59:41,444 INFO org.apache.hadoop.mapred.JobClient (main):  map 9% reduce 0%

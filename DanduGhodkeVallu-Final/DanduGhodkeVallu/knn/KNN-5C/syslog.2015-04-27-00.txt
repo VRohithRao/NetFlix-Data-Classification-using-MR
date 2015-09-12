@@ -1,0 +1,15 @@
+2015-04-27 00:20:52,347 INFO org.apache.hadoop.fs.s3native.NativeS3FileSystem (main): Created AmazonS3 with InstanceProfileCredentialsProvider
+2015-04-27 00:20:55,991 INFO org.apache.hadoop.mapred.JobClient (main): Default number of map tasks: null
+2015-04-27 00:20:55,992 INFO org.apache.hadoop.mapred.JobClient (main): Setting default number of map tasks based on cluster size to : 20
+2015-04-27 00:20:55,992 INFO org.apache.hadoop.mapred.JobClient (main): Default number of reduce tasks: 5
+2015-04-27 00:20:59,445 INFO org.apache.hadoop.security.ShellBasedUnixGroupsMapping (main): add hadoop to shell userGroupsCache
+2015-04-27 00:20:59,446 INFO org.apache.hadoop.mapred.JobClient (main): Setting group to hadoop
+2015-04-27 00:20:59,535 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2015-04-27 00:20:59,561 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2015-04-27 00:20:59,564 WARN com.hadoop.compression.lzo.LzoCodec (main): Could not find build properties file with revision hash
+2015-04-27 00:20:59,564 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev UNKNOWN]
+2015-04-27 00:20:59,574 WARN org.apache.hadoop.io.compress.snappy.LoadSnappy (main): Snappy native library is available
+2015-04-27 00:20:59,574 INFO org.apache.hadoop.io.compress.snappy.LoadSnappy (main): Snappy native library loaded
+2015-04-27 00:21:01,105 INFO org.apache.hadoop.mapred.JobClient (main): Running job: job_201504270018_0001
+2015-04-27 00:21:02,108 INFO org.apache.hadoop.mapred.JobClient (main):  map 0% reduce 0%
+2015-04-27 00:22:04,537 INFO org.apache.hadoop.mapred.JobClient (main):  map 100% reduce 0%

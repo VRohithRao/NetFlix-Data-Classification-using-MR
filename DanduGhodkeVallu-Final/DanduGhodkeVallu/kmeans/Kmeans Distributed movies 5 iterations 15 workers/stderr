@@ -1,0 +1,22 @@
+Error: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.shuffleInMemory(ReduceTask.java:1720)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getMapOutput(ReduceTask.java:1580)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.copyOutput(ReduceTask.java:1421)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.run(ReduceTask.java:1350)
+
+attempt_201504241619_0002_r_000001_0: SLF4J: Class path contains multiple SLF4J bindings.
+attempt_201504241619_0002_r_000001_0: SLF4J: Found binding in [jar:file:/home/hadoop/lib/slf4j-log4j12-1.7.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+attempt_201504241619_0002_r_000001_0: SLF4J: Found binding in [jar:file:/mnt/var/lib/hadoop/mapred/taskTracker/hadoop/jobcache/job_201504241619_0002/jars/job.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+attempt_201504241619_0002_r_000001_0: SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+attempt_201504241619_0002_r_000001_0: SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Error: java.lang.OutOfMemoryError: Java heap space
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.shuffleInMemory(ReduceTask.java:1720)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getMapOutput(ReduceTask.java:1580)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.copyOutput(ReduceTask.java:1421)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.run(ReduceTask.java:1350)
+
+attempt_201504241619_0002_r_000001_1: SLF4J: Class path contains multiple SLF4J bindings.
+attempt_201504241619_0002_r_000001_1: SLF4J: Found binding in [jar:file:/home/hadoop/lib/slf4j-log4j12-1.7.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+attempt_201504241619_0002_r_000001_1: SLF4J: Found binding in [jar:file:/mnt/var/lib/hadoop/mapred/taskTracker/hadoop/jobcache/job_201504241619_0002/jars/job.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+attempt_201504241619_0002_r_000001_1: SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+attempt_201504241619_0002_r_000001_1: SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]

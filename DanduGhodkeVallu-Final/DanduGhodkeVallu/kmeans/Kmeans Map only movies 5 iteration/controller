@@ -1,0 +1,43 @@
+2015-04-22T23:04:16.889Z INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-28SAPN7WUU90N/Kmeans_NLineInputFormat.jar s3://mapreducebharat/Project/Kmeans/movies1 s3://mapreducebharat/Project/KmeansNlineInput/res/ 6 s3://mapreducebharat/Project/KmeansNlineInput/res/'
+2015-04-22T23:04:16.891Z INFO Environment:
+  TERM=linux
+  CONSOLE=/dev/console
+  JAVA_HOME=/usr/lib/jvm/java-7-oracle
+  SHLVL=5
+  HADOOP_IDENT_STRING=hadoop
+  HIVE_HOME=/home/hadoop/hive
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  HADOOP_HOME_WARN_SUPPRESS=true
+  PWD=/
+  INIT_VERSION=sysvinit-2.88
+  _=/usr/lib/jvm/java-7-oracle/bin/java
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_HOME=/home/hadoop
+  LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib:
+  runlevel=2
+  SHELL=/bin/sh
+  VERBOSE=no
+  previous=N
+  CASCADING_SDK_HOME=/home/hadoop/Cascading-2.5-SDK
+  HADOOP_LOGFILE=syslog
+  PATH=/usr/local/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/hadoop/bin:/home/hadoop/hive/bin:/home/hadoop/Cascading-2.5-SDK/tools/multitool-20140224/bin:/home/hadoop/Cascading-2.5-SDK/tools/load-20140223/bin:/home/hadoop/Cascading-2.5-SDK/tools/lingual-client/bin:/home/hadoop/Cascading-2.5-SDK/driven/bin
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-28SAPN7WUU90N
+  RUNLEVEL=2
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-28SAPN7WUU90N/tmp
+  PREVLEVEL=N
+  HOME=/home/hadoop
+  LANG=en_US.UTF-8
+2015-04-22T23:04:16.892Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-28SAPN7WUU90N/stdout
+2015-04-22T23:04:16.892Z INFO redirectError to /mnt/var/log/hadoop/steps/s-28SAPN7WUU90N/stderr
+2015-04-22T23:04:16.892Z INFO Working dir /mnt/var/lib/hadoop/steps/s-28SAPN7WUU90N
+2015-04-22T23:04:16.994Z INFO ProcessRunner started child process 2448 :
+hadoop    2448  1489  0 23:04 ?        00:00:00 bash /home/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-28SAPN7WUU90N/Kmeans_NLineInputFormat.jar s3://mapreducebharat/Project/Kmeans/movies1 s3://mapreducebharat/Project/KmeansNlineInput/res/ 6 s3://mapreducebharat/Project/KmeansNlineInput/res/
+2015-04-22T23:04:17.001Z INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-28SAPN7W...
+2015-04-22T23:19:15.389Z INFO Process still running
+2015-04-22T23:34:17.587Z INFO Process still running
+2015-04-22T23:49:19.812Z INFO Process still running
+2015-04-23T00:04:22.159Z INFO Process still running
+2015-04-23T00:10:54.199Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-28SAPN7W...
+2015-04-23T00:10:58.604Z INFO Step created jobs: job_201504222302_0001,job_201504222302_0002,job_201504222302_0003,job_201504222302_0004,job_201504222302_0005
+2015-04-23T00:11:22.946Z INFO Step succeeded with exitCode 0 and took 4026 seconds
